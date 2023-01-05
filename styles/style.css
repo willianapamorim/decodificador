@@ -143,6 +143,7 @@ footer {
     margin: 0 auto;
     gap: 3%;
 }
+
 @media screen and (max-width: 1028px) {
     body {
         width: 47%;
@@ -179,9 +180,11 @@ footer {
 @media screen and (max-width: 480px) {
     body {
         width: auto;
+        margin-left: 20px;
     }
+
     footer,
-    main, .tela1 {
+    main, .tela1, .tela2 {
         width: auto;
     }
 
@@ -189,11 +192,11 @@ footer {
         display: flex;
         flex-direction: column;
         scroll-behavior: initial;
-
     }
 
     footer {
-        margin-left: 20%;
+        margin-left: -30px;
+        margin-right: 0;
     }
 
     .campoTexto,
@@ -205,5 +208,23 @@ footer {
 
     .textArea2 {
         width: 60%;
+    }
+
+    .campoTexto {
+        width: 80%;
+    }
+
+    .principal {
+        padding-left: 0px;
+    }
+
+    .principal p {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .tela1 {
+        width: 80%;
     }
 }
