@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>CriptoMessage</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" width="120px" height="48px" alt="logo">
+    </header>
+
+    <main class="principal">
+        <div>
+            <textarea name="decodificador" class="campoTexto" id="texto-cripto" cols="30" rows="10" required placeholder="Digite seu texto"></textarea>
+            <p>&#9888; Apenas letras minúsculas e sem acento.</p>
+            <input type="button" value="Criptografar" class="buttonCripto">
+            <input type="button" value="Descriptografar" class="buttonDecripto">
+        </div>
+
+        <div class="tela1" id="tela1">
+            <img src="images/image.png" alt="imagem de um menino com uma lupa">
+            <h2>Nenhuma mensagem encontrada</h2>
+            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+
+        <div class="tela2" id="tela2">
+            <textarea readonly class="textArea2" id="textArea2" cols="30" rows="10"></textarea>
+            <input type="button" value="Copiar" class="buttonCopy" id="copy">
+        </div>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Willian Amorim</p>
+    </footer>
+</body>
+<script src="scripts/mudaTela.js"></script>
+</html>
