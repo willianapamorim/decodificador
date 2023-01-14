@@ -1,16 +1,15 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
 }
 
 header {
     margin-top: 1em;
 }
 
-textarea {
-    resize: none;
+header img {
+    width: 30px;
 }
-
 /*main*/
 
 .principal {
@@ -26,6 +25,10 @@ textarea {
 }
 
 /* Área de texto */
+
+textarea {
+    resize: none;
+}
 
 .campoTexto {
     background-color: #E5E5E5;
